@@ -1,0 +1,5 @@
+POST https://rawal-admin.themes-coder.net/api/admin/token-validate Request body => {}
+ Response status =>  null null Response body => {
+    "status": "Success",
+    "message": "Token is valid!"
+}

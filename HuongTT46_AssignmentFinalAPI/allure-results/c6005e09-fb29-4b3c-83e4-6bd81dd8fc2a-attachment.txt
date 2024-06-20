@@ -1,0 +1,157 @@
+GET https://rawal-admin.themes-coder.net/api/admin/payment_methodRequest body => null
+ Response status => 200 HTTP/1.1 200 OK Response body => {
+    "data": [
+        {
+            "payment_method_id": 1,
+            "payment_method_name": "paypal",
+            "payment_method_title": "paypal",
+            "payment_method_type": "card",
+            "payment_method_status": "1",
+            "payment_method_environment": "1",
+            "default": "0"
+        },
+        {
+            "payment_method_id": 2,
+            "payment_method_name": "stripe",
+            "payment_method_title": "stripe",
+            "payment_method_type": "card",
+            "payment_method_status": "1",
+            "payment_method_environment": "0",
+            "default": "0"
+        },
+        {
+            "payment_method_id": 3,
+            "payment_method_name": "banktransfer",
+            "payment_method_title": "banktransfer",
+            "payment_method_type": "banktransfer",
+            "payment_method_status": "1",
+            "payment_method_environment": "0",
+            "default": "0"
+        },
+        {
+            "payment_method_id": 4,
+            "payment_method_name": "cod",
+            "payment_method_title": "cod",
+            "payment_method_type": "cod",
+            "payment_method_status": "1",
+            "payment_method_environment": "0",
+            "default": "0"
+        },
+        {
+            "payment_method_id": 5,
+            "payment_method_name": "braintree",
+            "payment_method_title": "braintree",
+            "payment_method_type": "webview",
+            "payment_method_status": "1",
+            "payment_method_environment": "0",
+            "default": "0"
+        },
+        {
+            "payment_method_id": 6,
+            "payment_method_name": "authorize_net",
+            "payment_method_title": "authorize_net",
+            "payment_method_type": "webview",
+            "payment_method_status": "1",
+            "payment_method_environment": "0",
+            "default": "0"
+        },
+        {
+            "payment_method_id": 7,
+            "payment_method_name": "mollie",
+            "payment_method_title": "mollie",
+            "payment_method_type": "webview",
+            "payment_method_status": "1",
+            "payment_method_environment": "1",
+            "default": "0"
+        },
+        {
+            "payment_method_id": 8,
+            "payment_method_name": "sagepay",
+            "payment_method_title": "sagepay",
+            "payment_method_type": "webview",
+            "payment_method_status": "1",
+            "payment_method_environment": "0",
+            "default": "0"
+        },
+        {
+            "payment_method_id": 9,
+            "payment_method_name": "razorpay",
+            "payment_method_title": "razorpay",
+            "payment_method_type": "webview",
+            "payment_method_status": "1",
+            "payment_method_environment": "1",
+            "default": "1"
+        },
+        {
+            "payment_method_id": 10,
+            "payment_method_name": "paytm",
+            "payment_method_title": "paytm",
+            "payment_method_type": "webview",
+            "payment_method_status": "1",
+            "payment_method_environment": "0",
+            "default": "0"
+        },
+        {
+            "payment_method_id": 11,
+            "payment_method_name": "paystack",
+            "payment_method_title": "paystack",
+            "payment_method_type": "webview",
+            "payment_method_status": "0",
+            "payment_method_environment": "0",
+            "default": "0"
+        },
+        {
+            "payment_method_id": 12,
+            "payment_method_name": "wallet",
+            "payment_method_title": "wallet",
+            "payment_method_type": "cod",
+            "payment_method_status": "1",
+            "payment_method_environment": "1",
+            "default": "0"
+        },
+        {
+            "payment_method_id": 13,
+            "payment_method_name": "fygaro",
+            "payment_method_title": "fygaro",
+            "payment_method_type": "webview",
+            "payment_method_status": "1",
+            "payment_method_environment": "0",
+            "default": "0"
+        }
+    ],
+    "links": {
+        "first": "https://rawal-admin.themes-coder.net/api/admin/payment_method?page=1",
+        "last": "https://rawal-admin.themes-coder.net/api/admin/payment_method?page=1",
+        "prev": null,
+        "next": null
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 1,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/payment_method?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://rawal-admin.themes-coder.net/api/admin/payment_method",
+        "per_page": 100,
+        "to": 13,
+        "total": 13
+    },
+    "status": "Success",
+    "message": "Data Get Successfully!",
+    "status_code": 200
+}

@@ -1,0 +1,330 @@
+GET https://rawal-admin.themes-coder.net/api/admin/quotation?limit=10&searchParameter=&sortBy=id&sortType=ASC&getSupplier=1&getCustomer=1&getWarehouse=1Request body => null
+ Response status => 200 HTTP/1.1 200 OK Response body => {
+    "data": [
+        {
+            "id": 1,
+            "uuid": "1",
+            "type": "purchase",
+            "supplier": null,
+            "customer": null,
+            "warehouse": {
+                "warehouse_id": 1,
+                "warehouse_code": "0101",
+                "warehouse_name": "kuwait",
+                "warehouse_address": "kuwait",
+                "warehouse_phone": "0123456789",
+                "warehouse_email": "default@email.com",
+                "warehouse_status": "active",
+                "warehouse_state_id": "304",
+                "warehouse_country_id": "161",
+                "warehouse_tax": [
+                    
+                ]
+            },
+            "grand_total": "155.00",
+            "note": null
+        },
+        {
+            "id": 2,
+            "uuid": "2",
+            "type": "purchase",
+            "supplier": null,
+            "customer": null,
+            "warehouse": {
+                "warehouse_id": 1,
+                "warehouse_code": "0101",
+                "warehouse_name": "kuwait",
+                "warehouse_address": "kuwait",
+                "warehouse_phone": "0123456789",
+                "warehouse_email": "default@email.com",
+                "warehouse_status": "active",
+                "warehouse_state_id": "304",
+                "warehouse_country_id": "161",
+                "warehouse_tax": [
+                    
+                ]
+            },
+            "grand_total": "30.00",
+            "note": null
+        },
+        {
+            "id": 3,
+            "uuid": "3",
+            "type": "purchase",
+            "supplier": {
+                "supplier_id": 2,
+                "supplier_first_name": "moustafa",
+                "supplier_last_name": "zahdour",
+                "supplier_address": "8591 William Court",
+                "supplier_phone": "0777442914",
+                "supplier_mobile": "0777442914",
+                "supplier_city": "Brooklyn"
+            },
+            "customer": null,
+            "warehouse": {
+                "warehouse_id": 2,
+                "warehouse_code": "1234",
+                "warehouse_name": "Labadi",
+                "warehouse_address": "savar",
+                "warehouse_phone": "12344",
+                "warehouse_email": "as@gmail.com",
+                "warehouse_status": "active",
+                "warehouse_state_id": "760",
+                "warehouse_country_id": "19",
+                "warehouse_tax": [
+                    
+                ]
+            },
+            "grand_total": "22.00",
+            "note": null
+        },
+        {
+            "id": 4,
+            "uuid": "4",
+            "type": "purchase",
+            "supplier": null,
+            "customer": null,
+            "warehouse": {
+                "warehouse_id": 1,
+                "warehouse_code": "0101",
+                "warehouse_name": "kuwait",
+                "warehouse_address": "kuwait",
+                "warehouse_phone": "0123456789",
+                "warehouse_email": "default@email.com",
+                "warehouse_status": "active",
+                "warehouse_state_id": "304",
+                "warehouse_country_id": "161",
+                "warehouse_tax": [
+                    
+                ]
+            },
+            "grand_total": "12.00",
+            "note": null
+        },
+        {
+            "id": 5,
+            "uuid": "5",
+            "type": "purchase",
+            "supplier": {
+                "supplier_id": 2,
+                "supplier_first_name": "moustafa",
+                "supplier_last_name": "zahdour",
+                "supplier_address": "8591 William Court",
+                "supplier_phone": "0777442914",
+                "supplier_mobile": "0777442914",
+                "supplier_city": "Brooklyn"
+            },
+            "customer": null,
+            "warehouse": {
+                "warehouse_id": 1,
+                "warehouse_code": "0101",
+                "warehouse_name": "kuwait",
+                "warehouse_address": "kuwait",
+                "warehouse_phone": "0123456789",
+                "warehouse_email": "default@email.com",
+                "warehouse_status": "active",
+                "warehouse_state_id": "304",
+                "warehouse_country_id": "161",
+                "warehouse_tax": [
+                    
+                ]
+            },
+            "grand_total": "37000.00",
+            "note": null
+        },
+        {
+            "id": 6,
+            "uuid": "6",
+            "type": "purchase",
+            "supplier": {
+                "supplier_id": 2,
+                "supplier_first_name": "moustafa",
+                "supplier_last_name": "zahdour",
+                "supplier_address": "8591 William Court",
+                "supplier_phone": "0777442914",
+                "supplier_mobile": "0777442914",
+                "supplier_city": "Brooklyn"
+            },
+            "customer": null,
+            "warehouse": {
+                "warehouse_id": 1,
+                "warehouse_code": "0101",
+                "warehouse_name": "kuwait",
+                "warehouse_address": "kuwait",
+                "warehouse_phone": "0123456789",
+                "warehouse_email": "default@email.com",
+                "warehouse_status": "active",
+                "warehouse_state_id": "304",
+                "warehouse_country_id": "161",
+                "warehouse_tax": [
+                    
+                ]
+            },
+            "grand_total": "7020.00",
+            "note": null
+        },
+        {
+            "id": 7,
+            "uuid": "7",
+            "type": "purchase",
+            "supplier": null,
+            "customer": null,
+            "warehouse": {
+                "warehouse_id": 1,
+                "warehouse_code": "0101",
+                "warehouse_name": "kuwait",
+                "warehouse_address": "kuwait",
+                "warehouse_phone": "0123456789",
+                "warehouse_email": "default@email.com",
+                "warehouse_status": "active",
+                "warehouse_state_id": "304",
+                "warehouse_country_id": "161",
+                "warehouse_tax": [
+                    
+                ]
+            },
+            "grand_total": "99.00",
+            "note": null
+        },
+        {
+            "id": 8,
+            "uuid": "8",
+            "type": "purchase",
+            "supplier": {
+                "supplier_id": 2,
+                "supplier_first_name": "moustafa",
+                "supplier_last_name": "zahdour",
+                "supplier_address": "8591 William Court",
+                "supplier_phone": "0777442914",
+                "supplier_mobile": "0777442914",
+                "supplier_city": "Brooklyn"
+            },
+            "customer": null,
+            "warehouse": {
+                "warehouse_id": 2,
+                "warehouse_code": "1234",
+                "warehouse_name": "Labadi",
+                "warehouse_address": "savar",
+                "warehouse_phone": "12344",
+                "warehouse_email": "as@gmail.com",
+                "warehouse_status": "active",
+                "warehouse_state_id": "760",
+                "warehouse_country_id": "19",
+                "warehouse_tax": [
+                    
+                ]
+            },
+            "grand_total": "110.00",
+            "note": "Quoting it"
+        },
+        {
+            "id": 9,
+            "uuid": "9",
+            "type": "purchase",
+            "supplier": null,
+            "customer": null,
+            "warehouse": {
+                "warehouse_id": 1,
+                "warehouse_code": "0101",
+                "warehouse_name": "kuwait",
+                "warehouse_address": "kuwait",
+                "warehouse_phone": "0123456789",
+                "warehouse_email": "default@email.com",
+                "warehouse_status": "active",
+                "warehouse_state_id": "304",
+                "warehouse_country_id": "161",
+                "warehouse_tax": [
+                    
+                ]
+            },
+            "grand_total": "2.00",
+            "note": null
+        },
+        {
+            "id": 10,
+            "uuid": "10",
+            "type": "purchase",
+            "supplier": {
+                "supplier_id": 2,
+                "supplier_first_name": "moustafa",
+                "supplier_last_name": "zahdour",
+                "supplier_address": "8591 William Court",
+                "supplier_phone": "0777442914",
+                "supplier_mobile": "0777442914",
+                "supplier_city": "Brooklyn"
+            },
+            "customer": null,
+            "warehouse": {
+                "warehouse_id": 2,
+                "warehouse_code": "1234",
+                "warehouse_name": "Labadi",
+                "warehouse_address": "savar",
+                "warehouse_phone": "12344",
+                "warehouse_email": "as@gmail.com",
+                "warehouse_status": "active",
+                "warehouse_state_id": "760",
+                "warehouse_country_id": "19",
+                "warehouse_tax": [
+                    
+                ]
+            },
+            "grand_total": "500.00",
+            "note": "Dade"
+        }
+    ],
+    "links": {
+        "first": "https://rawal-admin.themes-coder.net/api/admin/quotation?page=1",
+        "last": "https://rawal-admin.themes-coder.net/api/admin/quotation?page=5",
+        "prev": null,
+        "next": "https://rawal-admin.themes-coder.net/api/admin/quotation?page=2"
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 5,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/quotation?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/quotation?page=2",
+                "label": "2",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/quotation?page=3",
+                "label": "3",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/quotation?page=4",
+                "label": "4",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/quotation?page=5",
+                "label": "5",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/quotation?page=2",
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://rawal-admin.themes-coder.net/api/admin/quotation",
+        "per_page": "10",
+        "to": 10,
+        "total": 47
+    },
+    "status": "Success",
+    "message": "Data Get Successfully!",
+    "status_code": 200
+}

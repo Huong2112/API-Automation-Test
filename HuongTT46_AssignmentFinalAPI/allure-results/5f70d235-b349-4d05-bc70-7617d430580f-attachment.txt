@@ -1,0 +1,994 @@
+GET https://rawal-admin.themes-coder.net/api/admin/order?limit=10&searchParameter=&sortBy=id&sortType=DESCRequest body => null
+ Response status => 200 HTTP/1.1 200 OK Response body => {
+    "data": [
+        {
+            "order_id": 996,
+            "warehouse_id": "1",
+            "order_from": "pos",
+            "billing_first_name": "malik",
+            "billing_last_name": "bahawal",
+            "billing_company": null,
+            "billing_street_aadress": "abcd",
+            "billing_suburb": null,
+            "billing_city": "lahore",
+            "billing_postcode": "54000",
+            "billing_country": "167",
+            "billing_state": "3176",
+            "billing_phone": "123012809312",
+            "delivery_first_name": "malik",
+            "delivery_last_name": "bahawal",
+            "delivery_company": null,
+            "delivery_street_aadress": "abcd",
+            "delivery_suburb": null,
+            "delivery_city": "lahore",
+            "delivery_postcode": "54000",
+            "delivery_country": "167",
+            "delivery_state": "167",
+            "delivery_phone": "123012809312",
+            "cc_type": null,
+            "cc_owner": null,
+            "cc_number": null,
+            "cc_expiry": null,
+            "currency_id": {
+                "currency_id": 4,
+                "title": "INR",
+                "code": "₹",
+                "symbol_position": "left",
+                "exchange_rate": "1.0000",
+                "decimal_point": "0",
+                "thousand_point": ",",
+                "decimal_place": "2",
+                "is_default": "1",
+                "status": "active",
+                "country_id": {
+                    "id": 101,
+                    "name": "India",
+                    "iso_code_2": "IN",
+                    "iso_code_3": "IND",
+                    "address_format_id": "1",
+                    "country_code": "91",
+                    "status": "inactive",
+                    "deleted_at": null,
+                    "created_at": null,
+                    "updated_at": "2024-06-10T14:55:45.000000Z"
+                }
+            },
+            "currency": [
+                
+            ],
+            "currency_value": "1.00",
+            "order_price": "3.10",
+            "shipping_cost": "0.00",
+            "shipping_method": "shippingByWeight",
+            "shipping_duration": null,
+            "customer_order_notes": null,
+            "is_seen": "0",
+            "coupon_code": null,
+            "coupon_amount": null,
+            "payment_method": "cod",
+            "transaction_id": null,
+            "order_status": "Complete",
+            "delivery_boy_id": null,
+            "total_tax": "0.00",
+            "order_date": "30/04/24 03:18:42 PM",
+            "order_time": "03:18:42 PM",
+            "order_history": [
+                {
+                    "id": 1023,
+                    "order_id": "996",
+                    "order_status": "Complete",
+                    "created_at": "30-04-2024 15:18:42",
+                    "updated_at": "30-04-2024 15:18:42"
+                }
+            ],
+            "order_notes": [
+                
+            ],
+            "order_comments": [
+                
+            ],
+            "latlong": "12312312312"
+        },
+        {
+            "order_id": 995,
+            "warehouse_id": "1",
+            "order_from": "pos",
+            "billing_first_name": "Test",
+            "billing_last_name": "Account",
+            "billing_company": null,
+            "billing_street_aadress": "111",
+            "billing_suburb": null,
+            "billing_city": "iii",
+            "billing_postcode": "45666",
+            "billing_country": "167",
+            "billing_state": "3169",
+            "billing_phone": "0300-111111",
+            "delivery_first_name": "Test",
+            "delivery_last_name": "Account",
+            "delivery_company": null,
+            "delivery_street_aadress": "111",
+            "delivery_suburb": null,
+            "delivery_city": "iii",
+            "delivery_postcode": "45666",
+            "delivery_country": "167",
+            "delivery_state": "167",
+            "delivery_phone": "0300-111111",
+            "cc_type": null,
+            "cc_owner": null,
+            "cc_number": null,
+            "cc_expiry": null,
+            "currency_id": {
+                "currency_id": 4,
+                "title": "INR",
+                "code": "₹",
+                "symbol_position": "left",
+                "exchange_rate": "1.0000",
+                "decimal_point": "0",
+                "thousand_point": ",",
+                "decimal_place": "2",
+                "is_default": "1",
+                "status": "active",
+                "country_id": {
+                    "id": 101,
+                    "name": "India",
+                    "iso_code_2": "IN",
+                    "iso_code_3": "IND",
+                    "address_format_id": "1",
+                    "country_code": "91",
+                    "status": "inactive",
+                    "deleted_at": null,
+                    "created_at": null,
+                    "updated_at": "2024-06-10T14:55:45.000000Z"
+                }
+            },
+            "currency": [
+                
+            ],
+            "currency_value": "1.00",
+            "order_price": "0.10",
+            "shipping_cost": "0.00",
+            "shipping_method": "shippingByWeight",
+            "shipping_duration": null,
+            "customer_order_notes": null,
+            "is_seen": "0",
+            "coupon_code": null,
+            "coupon_amount": null,
+            "payment_method": "cod",
+            "transaction_id": null,
+            "order_status": "Complete",
+            "delivery_boy_id": null,
+            "total_tax": "0.00",
+            "order_date": "26/04/24 12:02:55 PM",
+            "order_time": "12:02:55 PM",
+            "order_history": [
+                {
+                    "id": 1022,
+                    "order_id": "995",
+                    "order_status": "Complete",
+                    "created_at": "26-04-2024 12:02:55",
+                    "updated_at": "26-04-2024 12:02:55"
+                }
+            ],
+            "order_notes": [
+                
+            ],
+            "order_comments": [
+                
+            ],
+            "latlong": "12312312312"
+        },
+        {
+            "order_id": 994,
+            "warehouse_id": "2",
+            "order_from": "pos",
+            "billing_first_name": "wAL",
+            "billing_last_name": "aGUI",
+            "billing_company": null,
+            "billing_street_aadress": "Oasis de Letonia 1020",
+            "billing_suburb": null,
+            "billing_city": "Ciudad Juarez",
+            "billing_postcode": "32674",
+            "billing_country": "12",
+            "billing_state": "2025",
+            "billing_phone": "+526561121142",
+            "delivery_first_name": "wAL",
+            "delivery_last_name": "aGUI",
+            "delivery_company": null,
+            "delivery_street_aadress": "Oasis de Letonia 1020",
+            "delivery_suburb": null,
+            "delivery_city": "Ciudad Juarez",
+            "delivery_postcode": "32674",
+            "delivery_country": "12",
+            "delivery_state": "760",
+            "delivery_phone": "+526561121142",
+            "cc_type": null,
+            "cc_owner": null,
+            "cc_number": null,
+            "cc_expiry": null,
+            "currency_id": {
+                "currency_id": 4,
+                "title": "INR",
+                "code": "₹",
+                "symbol_position": "left",
+                "exchange_rate": "1.0000",
+                "decimal_point": "0",
+                "thousand_point": ",",
+                "decimal_place": "2",
+                "is_default": "1",
+                "status": "active",
+                "country_id": {
+                    "id": 101,
+                    "name": "India",
+                    "iso_code_2": "IN",
+                    "iso_code_3": "IND",
+                    "address_format_id": "1",
+                    "country_code": "91",
+                    "status": "inactive",
+                    "deleted_at": null,
+                    "created_at": null,
+                    "updated_at": "2024-06-10T14:55:45.000000Z"
+                }
+            },
+            "currency": [
+                
+            ],
+            "currency_value": "1.00",
+            "order_price": "4.00",
+            "shipping_cost": "0.00",
+            "shipping_method": "shippingByWeight",
+            "shipping_duration": null,
+            "customer_order_notes": null,
+            "is_seen": "0",
+            "coupon_code": null,
+            "coupon_amount": null,
+            "payment_method": "cod",
+            "transaction_id": null,
+            "order_status": "Complete",
+            "delivery_boy_id": null,
+            "total_tax": "0.00",
+            "order_date": "26/04/24 11:54:05 AM",
+            "order_time": "11:54:05 AM",
+            "order_history": [
+                {
+                    "id": 1021,
+                    "order_id": "994",
+                    "order_status": "Complete",
+                    "created_at": "26-04-2024 11:54:05",
+                    "updated_at": "26-04-2024 11:54:05"
+                }
+            ],
+            "order_notes": [
+                
+            ],
+            "order_comments": [
+                
+            ],
+            "latlong": "12312312312"
+        },
+        {
+            "order_id": 993,
+            "warehouse_id": "2",
+            "order_from": "pos",
+            "billing_first_name": "wAL",
+            "billing_last_name": "aGUI",
+            "billing_company": null,
+            "billing_street_aadress": "Oasis de Letonia 1020",
+            "billing_suburb": null,
+            "billing_city": "Ciudad Juarez",
+            "billing_postcode": "32674",
+            "billing_country": "12",
+            "billing_state": "2025",
+            "billing_phone": "+526561121142",
+            "delivery_first_name": "wAL",
+            "delivery_last_name": "aGUI",
+            "delivery_company": null,
+            "delivery_street_aadress": "Oasis de Letonia 1020",
+            "delivery_suburb": null,
+            "delivery_city": "Ciudad Juarez",
+            "delivery_postcode": "32674",
+            "delivery_country": "12",
+            "delivery_state": "760",
+            "delivery_phone": "+526561121142",
+            "cc_type": null,
+            "cc_owner": null,
+            "cc_number": null,
+            "cc_expiry": null,
+            "currency_id": {
+                "currency_id": 4,
+                "title": "INR",
+                "code": "₹",
+                "symbol_position": "left",
+                "exchange_rate": "1.0000",
+                "decimal_point": "0",
+                "thousand_point": ",",
+                "decimal_place": "2",
+                "is_default": "1",
+                "status": "active",
+                "country_id": {
+                    "id": 101,
+                    "name": "India",
+                    "iso_code_2": "IN",
+                    "iso_code_3": "IND",
+                    "address_format_id": "1",
+                    "country_code": "91",
+                    "status": "inactive",
+                    "deleted_at": null,
+                    "created_at": null,
+                    "updated_at": "2024-06-10T14:55:45.000000Z"
+                }
+            },
+            "currency": [
+                
+            ],
+            "currency_value": "1.00",
+            "order_price": "4.00",
+            "shipping_cost": "0.00",
+            "shipping_method": "shippingByWeight",
+            "shipping_duration": null,
+            "customer_order_notes": null,
+            "is_seen": "0",
+            "coupon_code": null,
+            "coupon_amount": null,
+            "payment_method": "cod",
+            "transaction_id": null,
+            "order_status": "Complete",
+            "delivery_boy_id": null,
+            "total_tax": "0.00",
+            "order_date": "26/04/24 11:53:55 AM",
+            "order_time": "11:53:55 AM",
+            "order_history": [
+                {
+                    "id": 1020,
+                    "order_id": "993",
+                    "order_status": "Complete",
+                    "created_at": "26-04-2024 11:53:55",
+                    "updated_at": "26-04-2024 11:53:55"
+                }
+            ],
+            "order_notes": [
+                
+            ],
+            "order_comments": [
+                
+            ],
+            "latlong": "12312312312"
+        },
+        {
+            "order_id": 992,
+            "warehouse_id": "2",
+            "order_from": "pos",
+            "billing_first_name": "malik",
+            "billing_last_name": "bahawal",
+            "billing_company": null,
+            "billing_street_aadress": "abcd",
+            "billing_suburb": null,
+            "billing_city": "lahore",
+            "billing_postcode": "54000",
+            "billing_country": "167",
+            "billing_state": "3176",
+            "billing_phone": "123012809312",
+            "delivery_first_name": "malik",
+            "delivery_last_name": "bahawal",
+            "delivery_company": null,
+            "delivery_street_aadress": "abcd",
+            "delivery_suburb": null,
+            "delivery_city": "lahore",
+            "delivery_postcode": "54000",
+            "delivery_country": "167",
+            "delivery_state": "760",
+            "delivery_phone": "123012809312",
+            "cc_type": null,
+            "cc_owner": null,
+            "cc_number": null,
+            "cc_expiry": null,
+            "currency_id": {
+                "currency_id": 4,
+                "title": "INR",
+                "code": "₹",
+                "symbol_position": "left",
+                "exchange_rate": "1.0000",
+                "decimal_point": "0",
+                "thousand_point": ",",
+                "decimal_place": "2",
+                "is_default": "1",
+                "status": "active",
+                "country_id": {
+                    "id": 101,
+                    "name": "India",
+                    "iso_code_2": "IN",
+                    "iso_code_3": "IND",
+                    "address_format_id": "1",
+                    "country_code": "91",
+                    "status": "inactive",
+                    "deleted_at": null,
+                    "created_at": null,
+                    "updated_at": "2024-06-10T14:55:45.000000Z"
+                }
+            },
+            "currency": [
+                
+            ],
+            "currency_value": "1.00",
+            "order_price": "2.00",
+            "shipping_cost": "0.00",
+            "shipping_method": "shippingByWeight",
+            "shipping_duration": null,
+            "customer_order_notes": null,
+            "is_seen": "0",
+            "coupon_code": null,
+            "coupon_amount": null,
+            "payment_method": "cod",
+            "transaction_id": null,
+            "order_status": "Complete",
+            "delivery_boy_id": null,
+            "total_tax": "0.00",
+            "order_date": "22/04/24 06:18:08 AM",
+            "order_time": "06:18:08 AM",
+            "order_history": [
+                {
+                    "id": 1019,
+                    "order_id": "992",
+                    "order_status": "Complete",
+                    "created_at": "22-04-2024 06:18:08",
+                    "updated_at": "22-04-2024 06:18:08"
+                }
+            ],
+            "order_notes": [
+                
+            ],
+            "order_comments": [
+                
+            ],
+            "latlong": "12312312312"
+        },
+        {
+            "order_id": 991,
+            "warehouse_id": "2",
+            "order_from": "pos",
+            "billing_first_name": "malik",
+            "billing_last_name": "bahawal",
+            "billing_company": null,
+            "billing_street_aadress": "abcd",
+            "billing_suburb": null,
+            "billing_city": "lahore",
+            "billing_postcode": "54000",
+            "billing_country": "167",
+            "billing_state": "3176",
+            "billing_phone": "123012809312",
+            "delivery_first_name": "malik",
+            "delivery_last_name": "bahawal",
+            "delivery_company": null,
+            "delivery_street_aadress": "abcd",
+            "delivery_suburb": null,
+            "delivery_city": "lahore",
+            "delivery_postcode": "54000",
+            "delivery_country": "167",
+            "delivery_state": "760",
+            "delivery_phone": "123012809312",
+            "cc_type": null,
+            "cc_owner": null,
+            "cc_number": null,
+            "cc_expiry": null,
+            "currency_id": {
+                "currency_id": 4,
+                "title": "INR",
+                "code": "₹",
+                "symbol_position": "left",
+                "exchange_rate": "1.0000",
+                "decimal_point": "0",
+                "thousand_point": ",",
+                "decimal_place": "2",
+                "is_default": "1",
+                "status": "active",
+                "country_id": {
+                    "id": 101,
+                    "name": "India",
+                    "iso_code_2": "IN",
+                    "iso_code_3": "IND",
+                    "address_format_id": "1",
+                    "country_code": "91",
+                    "status": "inactive",
+                    "deleted_at": null,
+                    "created_at": null,
+                    "updated_at": "2024-06-10T14:55:45.000000Z"
+                }
+            },
+            "currency": [
+                
+            ],
+            "currency_value": "1.00",
+            "order_price": "2.00",
+            "shipping_cost": "0.00",
+            "shipping_method": "shippingByWeight",
+            "shipping_duration": null,
+            "customer_order_notes": null,
+            "is_seen": "0",
+            "coupon_code": null,
+            "coupon_amount": null,
+            "payment_method": "cod",
+            "transaction_id": null,
+            "order_status": "Complete",
+            "delivery_boy_id": null,
+            "total_tax": "0.00",
+            "order_date": "22/04/24 06:17:34 AM",
+            "order_time": "06:17:34 AM",
+            "order_history": [
+                {
+                    "id": 1018,
+                    "order_id": "991",
+                    "order_status": "Complete",
+                    "created_at": "22-04-2024 06:17:34",
+                    "updated_at": "22-04-2024 06:17:34"
+                }
+            ],
+            "order_notes": [
+                
+            ],
+            "order_comments": [
+                
+            ],
+            "latlong": "12312312312"
+        },
+        {
+            "order_id": 990,
+            "warehouse_id": "2",
+            "order_from": "pos",
+            "billing_first_name": "malik",
+            "billing_last_name": "bahawal",
+            "billing_company": null,
+            "billing_street_aadress": "abcd",
+            "billing_suburb": null,
+            "billing_city": "lahore",
+            "billing_postcode": "54000",
+            "billing_country": "167",
+            "billing_state": "3176",
+            "billing_phone": "123012809312",
+            "delivery_first_name": "malik",
+            "delivery_last_name": "bahawal",
+            "delivery_company": null,
+            "delivery_street_aadress": "abcd",
+            "delivery_suburb": null,
+            "delivery_city": "lahore",
+            "delivery_postcode": "54000",
+            "delivery_country": "167",
+            "delivery_state": "760",
+            "delivery_phone": "123012809312",
+            "cc_type": null,
+            "cc_owner": null,
+            "cc_number": null,
+            "cc_expiry": null,
+            "currency_id": {
+                "currency_id": 4,
+                "title": "INR",
+                "code": "₹",
+                "symbol_position": "left",
+                "exchange_rate": "1.0000",
+                "decimal_point": "0",
+                "thousand_point": ",",
+                "decimal_place": "2",
+                "is_default": "1",
+                "status": "active",
+                "country_id": {
+                    "id": 101,
+                    "name": "India",
+                    "iso_code_2": "IN",
+                    "iso_code_3": "IND",
+                    "address_format_id": "1",
+                    "country_code": "91",
+                    "status": "inactive",
+                    "deleted_at": null,
+                    "created_at": null,
+                    "updated_at": "2024-06-10T14:55:45.000000Z"
+                }
+            },
+            "currency": [
+                
+            ],
+            "currency_value": "1.00",
+            "order_price": "2.00",
+            "shipping_cost": "0.00",
+            "shipping_method": "shippingByWeight",
+            "shipping_duration": null,
+            "customer_order_notes": null,
+            "is_seen": "0",
+            "coupon_code": null,
+            "coupon_amount": null,
+            "payment_method": "cod",
+            "transaction_id": null,
+            "order_status": "Complete",
+            "delivery_boy_id": null,
+            "total_tax": "0.00",
+            "order_date": "22/04/24 06:17:22 AM",
+            "order_time": "06:17:22 AM",
+            "order_history": [
+                {
+                    "id": 1017,
+                    "order_id": "990",
+                    "order_status": "Complete",
+                    "created_at": "22-04-2024 06:17:22",
+                    "updated_at": "22-04-2024 06:17:22"
+                }
+            ],
+            "order_notes": [
+                
+            ],
+            "order_comments": [
+                
+            ],
+            "latlong": "12312312312"
+        },
+        {
+            "order_id": 989,
+            "warehouse_id": "1",
+            "order_from": "pos",
+            "billing_first_name": "Kitbash",
+            "billing_last_name": "3D",
+            "billing_company": null,
+            "billing_street_aadress": "123123",
+            "billing_suburb": null,
+            "billing_city": "city",
+            "billing_postcode": "12345",
+            "billing_country": "4",
+            "billing_state": "1101",
+            "billing_phone": "123456789",
+            "delivery_first_name": "Kitbash",
+            "delivery_last_name": "3D",
+            "delivery_company": null,
+            "delivery_street_aadress": "123123",
+            "delivery_suburb": null,
+            "delivery_city": "city",
+            "delivery_postcode": "12345",
+            "delivery_country": "4",
+            "delivery_state": "167",
+            "delivery_phone": "123456789",
+            "cc_type": null,
+            "cc_owner": null,
+            "cc_number": null,
+            "cc_expiry": null,
+            "currency_id": {
+                "currency_id": 4,
+                "title": "INR",
+                "code": "₹",
+                "symbol_position": "left",
+                "exchange_rate": "1.0000",
+                "decimal_point": "0",
+                "thousand_point": ",",
+                "decimal_place": "2",
+                "is_default": "1",
+                "status": "active",
+                "country_id": {
+                    "id": 101,
+                    "name": "India",
+                    "iso_code_2": "IN",
+                    "iso_code_3": "IND",
+                    "address_format_id": "1",
+                    "country_code": "91",
+                    "status": "inactive",
+                    "deleted_at": null,
+                    "created_at": null,
+                    "updated_at": "2024-06-10T14:55:45.000000Z"
+                }
+            },
+            "currency": [
+                
+            ],
+            "currency_value": "1.00",
+            "order_price": "9.50",
+            "shipping_cost": "0.00",
+            "shipping_method": "shippingByWeight",
+            "shipping_duration": null,
+            "customer_order_notes": null,
+            "is_seen": "0",
+            "coupon_code": null,
+            "coupon_amount": null,
+            "payment_method": "cod",
+            "transaction_id": null,
+            "order_status": "Return",
+            "delivery_boy_id": null,
+            "total_tax": "0.00",
+            "order_date": "17/04/24 03:16:28 PM",
+            "order_time": "03:16:28 PM",
+            "order_history": [
+                {
+                    "id": 1015,
+                    "order_id": "989",
+                    "order_status": "Complete",
+                    "created_at": "17-04-2024 15:16:28",
+                    "updated_at": "17-04-2024 15:16:28"
+                },
+                {
+                    "id": 1016,
+                    "order_id": "989",
+                    "order_status": "Return",
+                    "created_at": "17-04-2024 15:27:17",
+                    "updated_at": "17-04-2024 15:27:17"
+                }
+            ],
+            "order_notes": [
+                {
+                    "id": 15,
+                    "title": "commande",
+                    "notes": "returned no stock",
+                    "order_id": "989",
+                    "created_at": "2024-04-17T15:23:45.000000Z",
+                    "updated_at": "2024-04-17T15:23:45.000000Z"
+                }
+            ],
+            "order_comments": [
+                
+            ],
+            "latlong": "12312312312"
+        },
+        {
+            "order_id": 988,
+            "warehouse_id": "1",
+            "order_from": "pos",
+            "billing_first_name": "Kitbash",
+            "billing_last_name": "3D",
+            "billing_company": null,
+            "billing_street_aadress": "123123",
+            "billing_suburb": null,
+            "billing_city": "city",
+            "billing_postcode": "12345",
+            "billing_country": "4",
+            "billing_state": "1101",
+            "billing_phone": "123456789",
+            "delivery_first_name": "Kitbash",
+            "delivery_last_name": "3D",
+            "delivery_company": null,
+            "delivery_street_aadress": "123123",
+            "delivery_suburb": null,
+            "delivery_city": "city",
+            "delivery_postcode": "12345",
+            "delivery_country": "4",
+            "delivery_state": "167",
+            "delivery_phone": "123456789",
+            "cc_type": null,
+            "cc_owner": null,
+            "cc_number": null,
+            "cc_expiry": null,
+            "currency_id": {
+                "currency_id": 4,
+                "title": "INR",
+                "code": "₹",
+                "symbol_position": "left",
+                "exchange_rate": "1.0000",
+                "decimal_point": "0",
+                "thousand_point": ",",
+                "decimal_place": "2",
+                "is_default": "1",
+                "status": "active",
+                "country_id": {
+                    "id": 101,
+                    "name": "India",
+                    "iso_code_2": "IN",
+                    "iso_code_3": "IND",
+                    "address_format_id": "1",
+                    "country_code": "91",
+                    "status": "inactive",
+                    "deleted_at": null,
+                    "created_at": null,
+                    "updated_at": "2024-06-10T14:55:45.000000Z"
+                }
+            },
+            "currency": [
+                
+            ],
+            "currency_value": "1.00",
+            "order_price": "9.50",
+            "shipping_cost": "0.00",
+            "shipping_method": "shippingByWeight",
+            "shipping_duration": null,
+            "customer_order_notes": null,
+            "is_seen": "0",
+            "coupon_code": null,
+            "coupon_amount": null,
+            "payment_method": "cod",
+            "transaction_id": null,
+            "order_status": "Complete",
+            "delivery_boy_id": null,
+            "total_tax": "0.00",
+            "order_date": "17/04/24 03:16:17 PM",
+            "order_time": "03:16:17 PM",
+            "order_history": [
+                {
+                    "id": 1014,
+                    "order_id": "988",
+                    "order_status": "Complete",
+                    "created_at": "17-04-2024 15:16:17",
+                    "updated_at": "17-04-2024 15:16:17"
+                }
+            ],
+            "order_notes": [
+                
+            ],
+            "order_comments": [
+                
+            ],
+            "latlong": "12312312312"
+        },
+        {
+            "order_id": 987,
+            "warehouse_id": "1",
+            "order_from": "pos",
+            "billing_first_name": "Kitbash",
+            "billing_last_name": "3D",
+            "billing_company": null,
+            "billing_street_aadress": "123123",
+            "billing_suburb": null,
+            "billing_city": "city",
+            "billing_postcode": "12345",
+            "billing_country": "4",
+            "billing_state": "1101",
+            "billing_phone": "123456789",
+            "delivery_first_name": "Kitbash",
+            "delivery_last_name": "3D",
+            "delivery_company": null,
+            "delivery_street_aadress": "123123",
+            "delivery_suburb": null,
+            "delivery_city": "city",
+            "delivery_postcode": "12345",
+            "delivery_country": "4",
+            "delivery_state": "167",
+            "delivery_phone": "123456789",
+            "cc_type": null,
+            "cc_owner": null,
+            "cc_number": null,
+            "cc_expiry": null,
+            "currency_id": {
+                "currency_id": 4,
+                "title": "INR",
+                "code": "₹",
+                "symbol_position": "left",
+                "exchange_rate": "1.0000",
+                "decimal_point": "0",
+                "thousand_point": ",",
+                "decimal_place": "2",
+                "is_default": "1",
+                "status": "active",
+                "country_id": {
+                    "id": 101,
+                    "name": "India",
+                    "iso_code_2": "IN",
+                    "iso_code_3": "IND",
+                    "address_format_id": "1",
+                    "country_code": "91",
+                    "status": "inactive",
+                    "deleted_at": null,
+                    "created_at": null,
+                    "updated_at": "2024-06-10T14:55:45.000000Z"
+                }
+            },
+            "currency": [
+                
+            ],
+            "currency_value": "1.00",
+            "order_price": "0.10",
+            "shipping_cost": "0.00",
+            "shipping_method": "shippingByWeight",
+            "shipping_duration": null,
+            "customer_order_notes": null,
+            "is_seen": "0",
+            "coupon_code": null,
+            "coupon_amount": null,
+            "payment_method": "cod",
+            "transaction_id": null,
+            "order_status": "Complete",
+            "delivery_boy_id": null,
+            "total_tax": "0.00",
+            "order_date": "16/04/24 07:35:30 AM",
+            "order_time": "07:35:30 AM",
+            "order_history": [
+                {
+                    "id": 1013,
+                    "order_id": "987",
+                    "order_status": "Complete",
+                    "created_at": "16-04-2024 07:35:30",
+                    "updated_at": "16-04-2024 07:35:30"
+                }
+            ],
+            "order_notes": [
+                
+            ],
+            "order_comments": [
+                
+            ],
+            "latlong": "12312312312"
+        }
+    ],
+    "links": {
+        "first": "https://rawal-admin.themes-coder.net/api/admin/order?page=1",
+        "last": "https://rawal-admin.themes-coder.net/api/admin/order?page=100",
+        "prev": null,
+        "next": "https://rawal-admin.themes-coder.net/api/admin/order?page=2"
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "last_page": 100,
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/order?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/order?page=2",
+                "label": "2",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/order?page=3",
+                "label": "3",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/order?page=4",
+                "label": "4",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/order?page=5",
+                "label": "5",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/order?page=6",
+                "label": "6",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/order?page=7",
+                "label": "7",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/order?page=8",
+                "label": "8",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/order?page=9",
+                "label": "9",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/order?page=10",
+                "label": "10",
+                "active": false
+            },
+            {
+                "url": null,
+                "label": "...",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/order?page=99",
+                "label": "99",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/order?page=100",
+                "label": "100",
+                "active": false
+            },
+            {
+                "url": "https://rawal-admin.themes-coder.net/api/admin/order?page=2",
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "path": "https://rawal-admin.themes-coder.net/api/admin/order",
+        "per_page": "10",
+        "to": 10,
+        "total": 996
+    },
+    "status": "Success",
+    "message": "Data Get Successfully!",
+    "status_code": 200
+}

@@ -1,0 +1,811 @@
+GET https://thinkpro.vn/catalog-fs/product-items?keyword=&cur_page=1&per_page=20&sort=1&category=ban-phimRequest body => null
+ Response status => 200 HTTP/1.1 200 OK Response body => {
+    "data": [
+        {
+            "sku_id": 6959,
+            "product_id": 2327,
+            "shared_url": "/ban-phim/ban-phim-co-monsgeek-m1w-aluminium-cnc",
+            "name": "Bàn phím Cơ Monsgeek M1W Aluminium CNC",
+            "is_flash_sale": false,
+            "image": "media/core/products/2023/6/7/ban-phim-co-monsgeek-m1-aluminium-cnc-thinkpro-nicespace.png",
+            "frame": "",
+            "slug": "ban-phim-co-monsgeek-m1w-aluminium-cnc",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 157,
+                "name": "Bàn phím Monsgeek",
+                "shared_url": "/ban-phim-monsgeek",
+                "is_verify": false,
+                "is_premium": false
+            },
+            "price_before_discount": 2490000,
+            "price_discount_percent": 36,
+            "price": 1590000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Sliver",
+                    "code": "#c0c0c0"
+                },
+                {
+                    "name": "Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "Black Ninja",
+                    "code": "#625E5E"
+                }
+            ],
+            "status": 1,
+            "label_type": "",
+            "model_value": {
+                "spec": "M1W - AKKO Cream Yellow Pro Swwitch",
+                "type": "Mới, Full box, Nhập khẩu",
+                "color": "Sliver"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 6865,
+            "product_id": 2657,
+            "shared_url": "/ban-phim/ban-phim-co-fl-esport-cmk75",
+            "name": "Bàn Phím Cơ FL ESPORT CMK75",
+            "is_flash_sale": false,
+            "image": "media/core/products/2023/6/6/ban-phim-co-fl-esport-cmk75-thinkpro-nicespace.png",
+            "frame": "",
+            "slug": "ban-phim-co-fl-esport-cmk75",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 84,
+                "name": "Bàn phím FL-ESPORT",
+                "shared_url": "/ban-phim-fl-esport",
+                "is_verify": true,
+                "is_premium": false
+            },
+            "price_before_discount": 2690000,
+            "price_discount_percent": 29,
+            "price": 1899000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Lakeside Blue",
+                    "code": "#1BB4E0"
+                },
+                {
+                    "name": "Desert Gray",
+                    "code": "#585252"
+                }
+            ],
+            "status": 1,
+            "label_type": "",
+            "model_value": {
+                "spec": "FLCMMK Ice Pink Switch - Linear",
+                "type": "Mới, Full box, Nhập khẩu",
+                "color": "Lakeside Blue"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 2389,
+            "product_id": 880,
+            "shared_url": "/ban-phim/ban-phim-keychron-k3-v2",
+            "name": "Bàn phím Keychron K3 V2",
+            "is_flash_sale": false,
+            "image": "media/core/products/2024/4/13/ban-phim-keychron-k3-max-undefined.jpg",
+            "frame": "",
+            "slug": "ban-phim-keychron-k3-v2",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 47,
+                "name": "Bàn phím Keychron",
+                "shared_url": "/ban-phim-keychron",
+                "is_verify": false,
+                "is_premium": false
+            },
+            "price_before_discount": 1890000,
+            "price_discount_percent": 11,
+            "price": 1690000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Đen",
+                    "code": "#000000"
+                }
+            ],
+            "status": 1,
+            "label_type": "",
+            "model_value": {
+                "spec": "Gateron Brown Switch",
+                "type": "Mới, Sealed, Nhập khẩu",
+                "color": "Đen"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 4499,
+            "product_id": 1716,
+            "shared_url": "/ban-phim/ban-phim-co-keychron-k8-pro-qmkvia",
+            "name": "Bàn phím cơ Keychron K8 Pro QMK/VIA",
+            "is_flash_sale": false,
+            "image": "media/core/products/2022/7/7/Keychron-K8-Pro-01.png",
+            "frame": "",
+            "slug": "ban-phim-co-keychron-k8-pro-qmkvia",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 47,
+                "name": "Bàn phím Keychron",
+                "shared_url": "/ban-phim-keychron",
+                "is_verify": false,
+                "is_premium": false
+            },
+            "price_before_discount": 2790000,
+            "price_discount_percent": 18,
+            "price": 2290000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Baltic Blue",
+                    "code": "#4A4F94"
+                }
+            ],
+            "status": 1,
+            "label_type": "",
+            "model_value": {
+                "spec": "Case Nhôm - Led RGB - Gateron G pro Brown Switch",
+                "type": "Mới, Full box, Nhập khẩu",
+                "color": "Baltic Blue"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 4154,
+            "product_id": 1629,
+            "shared_url": "/ban-phim/ban-phim-co-iqunix-zx75-gravity-wave",
+            "name": "Bàn phím cơ IQUNIX ZX75 Gravity Wave",
+            "is_flash_sale": false,
+            "image": "media/core/products/2022/5/23/Z75_01.png",
+            "frame": "",
+            "slug": "ban-phim-co-iqunix-zx75-gravity-wave",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 92,
+                "name": "Bàn phím IQUNIX",
+                "shared_url": "/ban-phim-iqunix",
+                "is_verify": true,
+                "is_premium": false
+            },
+            "price_before_discount": 4700000,
+            "price_discount_percent": 6,
+            "price": 4400000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Shadow Grey",
+                    "code": "#8D8D8D"
+                }
+            ],
+            "status": 1,
+            "label_type": "ONLINE",
+            "model_value": {
+                "spec": "Non Led- Cherry MX Red Switch",
+                "type": "Mới, Full box, Chính hãng",
+                "color": "Shadow Grey"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 6871,
+            "product_id": 2658,
+            "shared_url": "/ban-phim/ban-phim-co-cidoo-v75-pro-aluminum-cnc",
+            "name": "Bàn phím cơ CIDOO V75 Pro - Aluminum CNC",
+            "is_flash_sale": false,
+            "image": "media/core/products/2023/6/7/ban-phim-co-cidoo-v75-aluminum-cnc-thinkpro-nicespace.png",
+            "frame": "",
+            "slug": "ban-phim-co-cidoo-v75-pro-aluminum-cnc",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 516,
+                "name": "Bàn phím CIDOO",
+                "shared_url": "/ban-phim-cidoo",
+                "is_verify": true,
+                "is_premium": false
+            },
+            "price_before_discount": 3090000,
+            "price_discount_percent": 6,
+            "price": 2890000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Retro",
+                    "code": "#E7E0A5"
+                }
+            ],
+            "status": 1,
+            "label_type": "",
+            "model_value": {
+                "spec": "Matte Switch-Linear",
+                "type": "Mới, Full box, Nhập khẩu",
+                "color": "Retro"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 8288,
+            "product_id": 2917,
+            "shared_url": "/ban-phim/ban-phim-co-nyphy-halo96-v2-qmkiva",
+            "name": "Bàn phím cơ Nyphy Halo96 v2 - QMK/IVA",
+            "is_flash_sale": false,
+            "image": "media/core/products/2024/4/28/ban-phim-co-nyphy-halo96-v2-qmkiva-undefined-c9F.jpg",
+            "frame": "",
+            "slug": "ban-phim-co-nyphy-halo96-v2-qmkiva",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 528,
+                "name": "Bàn phím NuPhy",
+                "shared_url": "/ban-phim-nuphy",
+                "is_verify": false,
+                "is_premium": false
+            },
+            "price_before_discount": 4290000,
+            "price_discount_percent": 0,
+            "price": 4290000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Obsidian Black",
+                    "code": "#000000"
+                },
+                {
+                    "name": "Ionic White",
+                    "code": "#FFFFFF"
+                }
+            ],
+            "status": 2,
+            "label_type": "",
+            "model_value": {
+                "spec": "Nuphy Raspberry Switch",
+                "type": "Mới, Full box, Nhập khẩu",
+                "color": "Obsidian Black"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 6884,
+            "product_id": 2666,
+            "shared_url": "/ban-phim/ban-phim-co-cidoo-v65-v2-aluminum-cnc",
+            "name": "Bàn phím cơ CIDOO V65 v2 - Aluminum CNC",
+            "is_flash_sale": false,
+            "image": "media/core/products/2023/6/8/ban-phim-co-cidoo-v65-pro-aluminum-cnc-thinkpro-nicespace.png",
+            "frame": "",
+            "slug": "ban-phim-co-cidoo-v65-v2-aluminum-cnc",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 516,
+                "name": "Bàn phím CIDOO",
+                "shared_url": "/ban-phim-cidoo",
+                "is_verify": true,
+                "is_premium": false
+            },
+            "price_before_discount": 2990000,
+            "price_discount_percent": 0,
+            "price": 2990000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Retro",
+                    "code": "#E7E0A5"
+                }
+            ],
+            "status": 2,
+            "label_type": "",
+            "model_value": {
+                "spec": "Quake Matte Switch - Linear",
+                "type": "Mới, Full box, Nhập khẩu",
+                "color": "Retro"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 6477,
+            "product_id": 2512,
+            "shared_url": "/ban-phim/ban-phim-co-khong-day-keychron-q1-pro-qmkvia-knob",
+            "name": "Bàn phím cơ không dây Keychron Q1 Pro QMK/VIA - Knob",
+            "is_flash_sale": false,
+            "image": "media/core/products/2023/4/11/Keychron-Q1-Pro-QMK-VIA_01.png",
+            "frame": "",
+            "slug": "ban-phim-co-khong-day-keychron-q1-pro-qmkvia-knob",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 47,
+                "name": "Bàn phím Keychron",
+                "shared_url": "/ban-phim-keychron",
+                "is_verify": false,
+                "is_premium": false
+            },
+            "price_before_discount": 4790000,
+            "price_discount_percent": 17,
+            "price": 3990000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Carbon Black",
+                    "code": "#030303"
+                },
+                {
+                    "name": "Silver Grey",
+                    "code": "#c9c0bb"
+                }
+            ],
+            "status": 1,
+            "label_type": "",
+            "model_value": {
+                "spec": "Keychron K Pro Brown Switch",
+                "type": "Mới, Sealed, Nhập khẩu",
+                "color": "Carbon Black"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 6431,
+            "product_id": 2501,
+            "shared_url": "/ban-phim/ban-phim-co-keychron-k1-pro-qmkvia",
+            "name": "Bàn phím cơ Keychron K1 Pro QMK/VIA",
+            "is_flash_sale": false,
+            "image": "media/core/products/2023/4/2/Keychron-K1-Pro-QMK-VIA-01.png",
+            "frame": "",
+            "slug": "ban-phim-co-keychron-k1-pro-qmkvia",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 47,
+                "name": "Bàn phím Keychron",
+                "shared_url": "/ban-phim-keychron",
+                "is_verify": false,
+                "is_premium": false
+            },
+            "price_before_discount": 2690000,
+            "price_discount_percent": 15,
+            "price": 2290000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Black",
+                    "code": "#000000"
+                }
+            ],
+            "status": 1,
+            "label_type": "",
+            "model_value": {
+                "spec": "Led RGB - Low Profile Gateron Red Switch",
+                "type": "Mới, Full box, Nhập khẩu",
+                "color": "Black"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 5860,
+            "product_id": 2331,
+            "shared_url": "/ban-phim/ban-phim-co-keychron-k2-pro-qmkvia",
+            "name": "Bàn phím cơ Keychron K2 Pro QMK/VIA",
+            "is_flash_sale": false,
+            "image": "media/core/products/2022/12/11/K2 Pro_04.png",
+            "frame": "",
+            "slug": "ban-phim-co-keychron-k2-pro-qmkvia",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 47,
+                "name": "Bàn phím Keychron",
+                "shared_url": "/ban-phim-keychron",
+                "is_verify": false,
+                "is_premium": false
+            },
+            "price_before_discount": 2790000,
+            "price_discount_percent": 25,
+            "price": 2090000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Tech Black",
+                    "code": "#1E3568"
+                }
+            ],
+            "status": 1,
+            "label_type": "",
+            "model_value": {
+                "spec": "Case Nhôm - Led RGB - Keychron K Pro Red Switch",
+                "type": "Mới, Full box, Nhập khẩu",
+                "color": "Tech Black"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 6305,
+            "product_id": 2482,
+            "shared_url": "/ban-phim/ban-phim-co-zuoya-lmk81-aluminium-cnc-via",
+            "name": "Bàn Phím Cơ Zuoya LMK81 Aluminium CNC VIA",
+            "is_flash_sale": false,
+            "image": "media/core/products/2023/3/8/lmk81_02.png",
+            "frame": "",
+            "slug": "ban-phim-co-zuoya-lmk81-aluminium-cnc-via",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 165,
+                "name": "Bàn phím Zuoya",
+                "shared_url": "/ban-phim-zuoya",
+                "is_verify": true,
+                "is_premium": false
+            },
+            "price_before_discount": 2350000,
+            "price_discount_percent": 0,
+            "price": 2350000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "White",
+                    "code": "#FFFFFF"
+                }
+            ],
+            "status": 1,
+            "label_type": "",
+            "model_value": {
+                "spec": "Kit Only",
+                "type": "Mới, Full box, Nhập khẩu",
+                "color": "White"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 6267,
+            "product_id": 2478,
+            "shared_url": "/ban-phim/ban-phim-co-keychron-k7-pro-qmkvia",
+            "name": "Bàn phím cơ Keychron K7 Pro QMK/VIA",
+            "is_flash_sale": false,
+            "image": "media/core/products/2023/3/1/Keychron K7 Pro_01.png",
+            "frame": "",
+            "slug": "ban-phim-co-keychron-k7-pro-qmkvia",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 47,
+                "name": "Bàn phím Keychron",
+                "shared_url": "/ban-phim-keychron",
+                "is_verify": false,
+                "is_premium": false
+            },
+            "price_before_discount": 2590000,
+            "price_discount_percent": 19,
+            "price": 2090000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Off Black",
+                    "code": "#000000"
+                }
+            ],
+            "status": 1,
+            "label_type": "",
+            "model_value": {
+                "spec": "Led RGB - Low Profile Gateron Red Switch",
+                "type": "Mới, Full box, Nhập khẩu",
+                "color": "Off Black"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 6185,
+            "product_id": 2463,
+            "shared_url": "/ban-phim/ban-phim-co-keychron-k10-pro-qmkvia",
+            "name": "Bàn phím cơ Keychron K10 Pro QMK/VIA",
+            "is_flash_sale": false,
+            "image": "media/core/products/2023/2/10/Keychron-K10-Pro-QMK-VIA-Wireless-01.png",
+            "frame": "",
+            "slug": "ban-phim-co-keychron-k10-pro-qmkvia",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 47,
+                "name": "Bàn phím Keychron",
+                "shared_url": "/ban-phim-keychron",
+                "is_verify": false,
+                "is_premium": false
+            },
+            "price_before_discount": 2990000,
+            "price_discount_percent": 20,
+            "price": 2390000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Tech Black",
+                    "code": "#1E3568"
+                }
+            ],
+            "status": 1,
+            "label_type": "",
+            "model_value": {
+                "spec": "Led RGB - Keychron K Pro Red Switch",
+                "type": "Mới, Full box, Nhập khẩu",
+                "color": "Tech Black"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 7062,
+            "product_id": 2461,
+            "shared_url": "/ban-phim/ban-phim-co-keydous-nj81-smoke",
+            "name": "Bàn phím cơ Keydous NJ81 - Smoke",
+            "is_flash_sale": false,
+            "image": "media/core/products/2023/2/8/IMG_0888.JPG",
+            "frame": "",
+            "slug": "ban-phim-co-keydous-nj81-smoke",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 79,
+                "name": "Bàn phím Keydous",
+                "shared_url": "/ban-phim-keydous",
+                "is_verify": false,
+                "is_premium": false
+            },
+            "price_before_discount": 2690000,
+            "price_discount_percent": 22,
+            "price": 2090000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Smoke",
+                    "code": "#545050FF"
+                }
+            ],
+            "status": 1,
+            "label_type": "",
+            "model_value": {
+                "spec": "Steel Plate - Gateron Red Switch",
+                "type": "Mới, Full box, Nhập khẩu",
+                "color": "Smoke"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 7575,
+            "product_id": 1794,
+            "shared_url": "/ban-phim/ban-phim-co-keychron-v1-max-qmkvia-wireless",
+            "name": "Bàn phím cơ Keychron V1 Max QMK/VIA Wireless",
+            "is_flash_sale": false,
+            "image": "media/core/products/2023/11/8/ban-phim-co-keychron-v1-max-qmkvia-wireless-thinkpro.jpg",
+            "frame": "",
+            "slug": "ban-phim-co-keychron-v1-max-qmkvia-wireless",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 47,
+                "name": "Bàn phím Keychron",
+                "shared_url": "/ban-phim-keychron",
+                "is_verify": false,
+                "is_premium": false
+            },
+            "price_before_discount": 2490000,
+            "price_discount_percent": 16,
+            "price": 2090000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Carbon Black",
+                    "code": "#030303"
+                }
+            ],
+            "status": 1,
+            "label_type": "",
+            "model_value": {
+                "spec": "Gateron Jupiter Red",
+                "type": "Mới, Full box, Nhập khẩu",
+                "color": "Carbon Black"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 8458,
+            "product_id": 2887,
+            "shared_url": "/ban-phim/ban-phim-co-xinmeng-m75-pro",
+            "name": "Bàn Phím Cơ Xinmeng M75",
+            "is_flash_sale": false,
+            "image": "media/core/products/2024/6/9/ban-phim-co-xinmeng-m75-undefined-l9P.jpg",
+            "frame": "",
+            "slug": "ban-phim-co-xinmeng-m75-pro",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 533,
+                "name": "Bàn phím XINMENG",
+                "shared_url": "/ban-phim-xinmeng",
+                "is_verify": false,
+                "is_premium": false
+            },
+            "price_before_discount": 1790000,
+            "price_discount_percent": 39,
+            "price": 1090000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Black Ninja",
+                    "code": "#625E5E"
+                }
+            ],
+            "status": 1,
+            "label_type": "",
+            "model_value": {
+                "spec": "Xinmeng Black Plum Switch",
+                "type": "Mới, Full box, Nhập khẩu",
+                "color": "Black Ninja"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 8112,
+            "product_id": 2879,
+            "shared_url": "/ban-phim/ban-phim-co-darmoshark-k7-pro",
+            "name": "Bàn phím cơ Darmoshark K7 Pro",
+            "is_flash_sale": false,
+            "image": "media/core/products/2024/3/19/ban-phim-co-darkmoshark-k7-pro-undefined-fiy.jpg",
+            "frame": "",
+            "slug": "ban-phim-co-darmoshark-k7-pro",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 162,
+                "name": "Bàn phím Darmoshark",
+                "shared_url": "/ban-phim-darmoshark",
+                "is_verify": true,
+                "is_premium": false
+            },
+            "price_before_discount": 2900000,
+            "price_discount_percent": 18,
+            "price": 2390000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Gulf Racing",
+                    "code": "#E97420"
+                }
+            ],
+            "status": 1,
+            "label_type": "",
+            "model_value": {
+                "spec": "",
+                "type": "Mới, Full box, Chính hãng",
+                "color": "Gulf Racing"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 8089,
+            "product_id": 2877,
+            "shared_url": "/ban-phim/ban-phim-co-lofree-block",
+            "name": "Bàn Phím Cơ Lofree Block",
+            "is_flash_sale": false,
+            "image": "media/core/products/2024/3/14/ban-phim-co-lofree-block-undefined-aOx.jpg",
+            "frame": "",
+            "slug": "ban-phim-co-lofree-block",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 536,
+                "name": "Bàn phím Lofree",
+                "shared_url": "/ban-phim-lofree",
+                "is_verify": false,
+                "is_premium": false
+            },
+            "price_before_discount": 3990000,
+            "price_discount_percent": 33,
+            "price": 2690000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Retro",
+                    "code": "#E7E0A5"
+                }
+            ],
+            "status": 1,
+            "label_type": "",
+            "model_value": {
+                "spec": "",
+                "type": "Mới, Full box, Nhập khẩu",
+                "color": "Retro"
+            },
+            "specs": null,
+            "is_available": true
+        },
+        {
+            "sku_id": 6880,
+            "product_id": 2663,
+            "shared_url": "/ban-phim/ban-phim-co-cidoo-v87-pro-aluminum-cnc",
+            "name": "Bàn phím cơ CIDOO V87 Pro - Aluminum CNC",
+            "is_flash_sale": false,
+            "image": "media/core/products/2023/6/8/ban-phim-co-cidoo-v87-aluminum-cnc-thinkpro-nicespace-Sj3.png",
+            "frame": "",
+            "slug": "ban-phim-co-cidoo-v87-pro-aluminum-cnc",
+            "category_id": 7,
+            "applied_channel": null,
+            "brand": {
+                "id": 516,
+                "name": "Bàn phím CIDOO",
+                "shared_url": "/ban-phim-cidoo",
+                "is_verify": true,
+                "is_premium": false
+            },
+            "price_before_discount": 3290000,
+            "price_discount_percent": 9,
+            "price": 2990000,
+            "gift_amount": 0,
+            "has_gift": false,
+            "colors": [
+                {
+                    "name": "Retro",
+                    "code": "#E7E0A5"
+                }
+            ],
+            "status": 1,
+            "label_type": "",
+            "model_value": {
+                "spec": "Matte Switch-Linear",
+                "type": "Mới, Full box, Nhập khẩu",
+                "color": "Retro"
+            },
+            "specs": null,
+            "is_available": true
+        }
+    ],
+    "meta": {
+        "current_page": 1,
+        "per_page": 20,
+        "last_page": 4,
+        "total": 65
+    }
+}

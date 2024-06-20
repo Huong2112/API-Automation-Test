@@ -1,0 +1,1562 @@
+GET https://rawal-admin.themes-coder.net/api/admin/order/990?orderDetail=1&productDetail=1&currency=1&billing_country=1&billing_state=1&delivery_country=1&delivery_state=1&customer=1Request body => null
+ Response status => 200 HTTP/1.1 200 OK Response body => {
+    "data": {
+        "order_id": 990,
+        "customer_id": {
+            "customer_id": 10,
+            "customer_first_name": "malik",
+            "customer_last_name": "bahawal",
+            "customer_email": "abc@gmailc.om",
+            "customer_hash": "$2y$10$Y8wK0JHs5nFTxUs3qNHbnu8qxyq5H4XQNsI.FwFlbocQR.gcHlXNq",
+            "is_seen": "0",
+            "customer_status": "0",
+            "customer_address": [
+                {
+                    "id": 14,
+                    "first_name": "yameen",
+                    "last_name": "ali",
+                    "gender": null,
+                    "company": "abce",
+                    "street_address": "abcd",
+                    "suburb": null,
+                    "phone": "123012809312",
+                    "postcode": "54000",
+                    "dob": null,
+                    "city": "lahore",
+                    "country_id": {
+                        "country_id": 167,
+                        "country_name": "Pakistan",
+                        "iso_code_2": "PK",
+                        "iso_code_3": "PAK",
+                        "address_format_id": "1",
+                        "country_code": "92",
+                        "status": "inactive"
+                    },
+                    "state_id": {
+                        "id": 3176,
+                        "name": "Punjab",
+                        "country_id": "167",
+                        "status": "inactive"
+                    },
+                    "lattitude": null,
+                    "latlong": "urdu",
+                    "longitude": null,
+                    "default_address": "0"
+                }
+            ]
+        },
+        "warehouse_id": "2",
+        "order_from": "pos",
+        "billing_first_name": "malik",
+        "billing_last_name": "bahawal",
+        "billing_company": null,
+        "billing_street_aadress": "abcd",
+        "billing_suburb": null,
+        "billing_city": "lahore",
+        "billing_postcode": "54000",
+        "billing_country": "167",
+        "billing_country1": {
+            "country_id": 167,
+            "country_name": "Pakistan",
+            "iso_code_2": "PK",
+            "iso_code_3": "PAK",
+            "address_format_id": "1",
+            "country_code": "92",
+            "status": "inactive"
+        },
+        "billing_state1": {
+            "id": 3176,
+            "name": "Punjab",
+            "country_id": "167",
+            "status": "inactive"
+        },
+        "billing_state": "3176",
+        "billing_phone": "123012809312",
+        "delivery_first_name": "malik",
+        "delivery_last_name": "bahawal",
+        "delivery_company": null,
+        "delivery_street_aadress": "abcd",
+        "delivery_suburb": null,
+        "delivery_city": "lahore",
+        "delivery_postcode": "54000",
+        "delivery_country": "167",
+        "delivery_country1": {
+            "country_id": 167,
+            "country_name": "Pakistan",
+            "iso_code_2": "PK",
+            "iso_code_3": "PAK",
+            "address_format_id": "1",
+            "country_code": "92",
+            "status": "inactive"
+        },
+        "delivery_state1": {
+            "id": 760,
+            "name": "Dhaka Division",
+            "country_id": "19",
+            "status": "inactive"
+        },
+        "delivery_state": "760",
+        "delivery_phone": "123012809312",
+        "cc_type": null,
+        "cc_owner": null,
+        "cc_number": null,
+        "cc_expiry": null,
+        "currency_id": {
+            "currency_id": 4,
+            "title": "INR",
+            "code": "₹",
+            "symbol_position": "left",
+            "exchange_rate": "1.0000",
+            "decimal_point": "0",
+            "thousand_point": ",",
+            "decimal_place": "2",
+            "is_default": "1",
+            "status": "active",
+            "country_id": {
+                "id": 101,
+                "name": "India",
+                "iso_code_2": "IN",
+                "iso_code_3": "IND",
+                "address_format_id": "1",
+                "country_code": "91",
+                "status": "inactive",
+                "deleted_at": null,
+                "created_at": null,
+                "updated_at": "2024-06-10T14:55:45.000000Z"
+            }
+        },
+        "currency": {
+            "exchange_rate": "0.0000",
+            "symbol_position": "left",
+            "code": "Rp"
+        },
+        "currency_value": "1.00",
+        "order_price": "2.00",
+        "shipping_cost": "0.00",
+        "shipping_method": "shippingByWeight",
+        "shipping_duration": null,
+        "customer_order_notes": null,
+        "is_seen": "0",
+        "coupon_code": null,
+        "coupon_amount": null,
+        "payment_method": "cod",
+        "transaction_id": null,
+        "order_status": "Complete",
+        "delivery_boy_id": null,
+        "total_tax": "0.00",
+        "order_date": "22/04/24 06:17:22 AM",
+        "order_time": "06:17:22 AM",
+        "order_detail": [
+            {
+                "id": "990",
+                "product": {
+                    "product_id": 787,
+                    "product_sku": "12wew",
+                    "product_type": "simple",
+                    "product_slug": "12wew",
+                    "product_video_url": null,
+                    "available_qty": "-91",
+                    "product_gallary": {
+                        "id": 203,
+                        "gallary_name": "202402152817grapes.jpg",
+                        "gallary_extension": "image/jpeg",
+                        "user_id": "2",
+                        "detail": [
+                            {
+                                "id": 577,
+                                "gallary_type": "large",
+                                "gallary_height": "888",
+                                "gallary_width": "888",
+                                "gallary_path": "/gallary/large202402152817grapes.jpg"
+                            },
+                            {
+                                "id": 578,
+                                "gallary_type": "medium",
+                                "gallary_height": "1200",
+                                "gallary_width": "300",
+                                "gallary_path": "/gallary/medium202402152817grapes.jpg"
+                            },
+                            {
+                                "id": 579,
+                                "gallary_type": "thumbnail",
+                                "gallary_height": "1300",
+                                "gallary_width": "1300",
+                                "gallary_path": "/gallary/thumbnail202402152817grapes.jpg"
+                            }
+                        ]
+                    },
+                    "product_gallary_detail": [
+                        {
+                            "id": 203,
+                            "gallary_name": "202402152817grapes.jpg",
+                            "gallary_extension": "image/jpeg",
+                            "user_id": "2"
+                        },
+                        {
+                            "id": 196,
+                            "gallary_name": "202401225457th-723573570.png",
+                            "gallary_extension": "image/png",
+                            "user_id": "2"
+                        },
+                        {
+                            "id": 177,
+                            "gallary_name": "202309220633licensed-image.jpg",
+                            "gallary_extension": "image/jpeg",
+                            "user_id": "2"
+                        },
+                        {
+                            "id": 135,
+                            "gallary_name": "202306231057photo-1575936123452-b67c3203c357.jpeg",
+                            "gallary_extension": "image/jpeg",
+                            "user_id": "2"
+                        },
+                        {
+                            "id": 139,
+                            "gallary_name": "202307160416MANGO.jpg",
+                            "gallary_extension": "image/jpeg",
+                            "user_id": "2"
+                        }
+                    ],
+                    "product_price": 0,
+                    "product_discount_price": 0,
+                    "discount_percentage": 100,
+                    "unit_id": {
+                        "id": 2,
+                        "is_active": "1"
+                    },
+                    "product_weight": "10",
+                    "product_status": "active",
+                    "product_brand": {
+                        "brand_id": 222,
+                        "brand_name": "Demo_Chrome_Haha1",
+                        "brand_slug": "demo_chrome_haha1",
+                        "gallary": {
+                            "id": 190,
+                            "name": "202312251407space.jpg",
+                            "extension": "image/jpeg",
+                            "user_id": "1",
+                            "created_by": "1",
+                            "updated_by": null,
+                            "deleted_at": null,
+                            "created_at": "2023-12-25T00:14:07.000000Z",
+                            "updated_at": "2023-12-25T00:14:07.000000Z"
+                        },
+                        "brand_status": "active"
+                    },
+                    "product_tax": null,
+                    "product_view": null,
+                    "is_featured": "1",
+                    "new": false,
+                    "is_points": "1",
+                    "product_min_order": "10",
+                    "product_max_order": "15",
+                    "seo_meta_tag": "d",
+                    "seo_desc": "d",
+                    "product_user": {
+                        "u_id": 2,
+                        "name": "Admin",
+                        "email": "admin@email.com",
+                        "status": "active",
+                        "role": {
+                            "id": 2,
+                            "name": "Admin"
+                        },
+                        "warehouse": [
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 1,
+                                "warehouse_code": "0101",
+                                "warehouse_name": "kuwait",
+                                "warehouse_address": "kuwait",
+                                "warehouse_phone": "0123456789",
+                                "warehouse_email": "default@email.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "304",
+                                "warehouse_country_id": "161",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            },
+                            {
+                                "warehouse_id": 2,
+                                "warehouse_code": "1234",
+                                "warehouse_name": "Labadi",
+                                "warehouse_address": "savar",
+                                "warehouse_phone": "12344",
+                                "warehouse_email": "as@gmail.com",
+                                "warehouse_status": "active",
+                                "warehouse_state_id": "760",
+                                "warehouse_country_id": "19",
+                                "warehouse_tax": [
+                                    
+                                ]
+                            }
+                        ]
+                    },
+                    "detail": [
+                        {
+                            "product_id": "787",
+                            "title": "Product1 demo demo demo",
+                            "desc": "Automation Test",
+                            "language": {
+                                "id": 7,
+                                "language_name": "Indonesia",
+                                "code": "ID",
+                                "is_default": "1",
+                                "direction": "ltr",
+                                "directory": "ID",
+                                "status": "active"
+                            }
+                        }
+                    ],
+                    "reviews": [
+                        
+                    ],
+                    "comments": [
+                        
+                    ],
+                    "stock": {
+                        "product_id": "787",
+                        "product_combination_id": null,
+                        "warehouse_id": "1",
+                        "stock_in": "15",
+                        "stock_out": "106",
+                        "remaining": "-91",
+                        "product_type": "simple",
+                        "price": "1000.00",
+                        "discount_price": "2.00"
+                    }
+                },
+                "product_combination": null,
+                "product_combination_id": null,
+                "product_price": "1000.00",
+                "product_discount": "2.00",
+                "product_tax": "0.00",
+                "product_qty": "1",
+                "product_total": "2.00"
+            }
+        ],
+        "order_history": [
+            {
+                "id": 1017,
+                "order_id": "990",
+                "order_status": "Complete",
+                "created_at": "22-04-2024 06:17:22",
+                "updated_at": "22-04-2024 06:17:22"
+            }
+        ],
+        "order_notes": [
+            
+        ],
+        "order_comments": [
+            
+        ],
+        "latlong": "12312312312"
+    },
+    "status": "Success",
+    "message": "Data Get Successfully!",
+    "status_code": 200
+}
